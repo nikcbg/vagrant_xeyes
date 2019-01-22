@@ -19,7 +19,9 @@ File name                            | File description
 ### How to use the repository 
 
 - check if x11 app accepts connections by executing:
-``` xhost +```
+``` 
+xhost +
+```
 
 - check if the local environment works by executing:
 ```
