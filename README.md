@@ -22,16 +22,19 @@ File name                            | File description
 ``` xhost +```
 
 - check if the local environment works by executing:
-```xeyes
+```
+xeyes
 ```
 
 - next create and configure your Vagrant machine by executing:
-```vagrant up
+```
+vagrant up
 ```
 
 - finally login to the Vagrant box to run the graphical interface:
-```vagrant ssh -c 'xeyes
-'```
+```
+vagrant ssh -c 'xeyes`
+```
 
 ### TO DO: 
 - Check if everything works as expected. 
